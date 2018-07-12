@@ -25,7 +25,7 @@ class Article extends JsonResource
     {
         return[
                'version' => '1.0.0',
-               'author_url' => url('web.njit.edu/~sgz2')
+               'author_url' => url('http://web.njit.edu/~sgz2')
         ];
     }
 }
